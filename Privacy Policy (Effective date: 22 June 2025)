@@ -1,0 +1,57 @@
+PRIVACY POLICY
+==============
+
+1  WHO WE ARE
+-------------
+App name: **Binaural Cosmos**  
+Developer: **Daniel P. Grobbelaar / CatManSoftwareStudios**  
+Email: catmansoftwarestudio@gmail.com  
+Country: South Africa 
+
+2  WHAT DATA WE COLLECT
+----------------------
+We **do not collect, store, or transmit any personal data**.  
+The app runs entirely on the user’s device and:
+
+* plays mathematically generated audio,
+* stores user preferences (theme, background image URI, tone choices) **locally** in Android’s Shared Preferences,
+* never uploads files, images, or analytics events to any server.
+
+3  PERMISSIONS WE REQUEST
+-------------------------
+| Permission                     | Why we need it                          |
+|--------------------------------|-----------------------------------------|
+| **FOREGROUND_SERVICE + MEDIA_PLAYBACK** | To keep audio running while the screen is off. |
+| **POST_NOTIFICATIONS** (Android 13+)   | To show playback controls in the notification shade. |
+| **VIBRATE**                              | To provide optional haptic feedback on button taps. |
+
+No camera, microphone, location, or storage-write permissions are requested.
+
+4  THIRD-PARTY SERVICES
+-----------------------
+The app uses only core Android / Google Play libraries (Play-Billing).  
+Google processes your one-time purchase; we never see your payment details.  
+No Firebase Analytics, Crashlytics, Ads, or other SDKs are integrated.
+
+5  DATA RETENTION & DELETION
+----------------------------
+All settings are stored on-device.  
+Uninstalling the app or using Android’s “Clear Data” function permanently deletes them.
+
+6  CHILDREN’S PRIVACY
+---------------------
+Binaural Cosmos is **not directed at children under 13** and intentionally collects no data from anyone.
+
+7  YOUR RIGHTS
+--------------
+Because we store no personal data, there is nothing to access, rectify, or erase.  
+If you have questions, email us at **catmansoftwarestudio@gmail.com**.
+
+8  CHANGES TO THIS POLICY
+-------------------------
+If we add cloud features or analytics in the future, we will update this policy and notify users in-app.
+
+9  CONTACT
+----------
+Daniel P. Grobbelaar  
+catmansoftwarestudio@gmail.com

@@ -1,0 +1,81 @@
+# PRIVACY POLICY
+
+Effective date: **03 August 2025**
+
+## 1  WHO WE ARE
+
+App name: **Binaural Cosmos**
+Developer: **CatManSoftwareStudios**
+Email: **[catmansoftwarestudio@gmail.com]**
+Country: **South Africa**
+
+## 2  SUMMARY OF DATA PRACTICES
+
+We **do not collect, store, or transmit any personal data** from your use of the App.
+The App runs entirely on your device and works **without** the Android INTERNET permission.
+
+## 3  WHAT THE APP STORES ON YOUR DEVICE
+
+The App stores user preferences **locally** using Android’s SharedPreferences:
+
+* theme and background selection (including a local image URI if you choose one),
+* tone choices and preset selections,
+* simple UI state (e.g., last screen, toggles).
+
+This information remains on your device and is not transmitted to us.
+
+## 4  PERMISSIONS WE REQUEST
+
+| Permission                                | Why we need it                                    | Notes                                          |
+| ----------------------------------------- | ------------------------------------------------- | ---------------------------------------------- |
+| **FOREGROUND\_SERVICE + MEDIA\_PLAYBACK** | Keep audio running while the screen is off.       | Required for stable playback.                  |
+| **POST\_NOTIFICATIONS** (Android 13+)     | Show playback controls in the notification shade. | Optional; you can deny it.                     |
+| **VIBRATE**                               | Optional haptic feedback on button taps.          | Optional; you can disable haptics in settings. |
+
+No camera, microphone, location, contacts, or storage-write permissions are requested.
+
+## 5  THIRD-PARTY SERVICES
+
+The App uses only core Android / Google Play libraries (including **Play Billing**). Google processes your purchase; we do not receive your payment details. The App does **not** include Firebase Analytics, Crashlytics, Ad SDKs, or other tracking technologies.
+System services (e.g., Google Play, device OS) may process limited technical data under their own privacy policies.
+
+## 6  PURCHASES, BILLING & REFUNDS
+
+Payments are handled by **Google Play** under Google’s terms and policies. For refund eligibility, please refer to Google Play’s refund policy. We do not store or control payment card information.
+
+## 7  WHEN YOU CONTACT US
+
+If you email us (e.g., support requests), we will process the content of your message, your email address, and any information you choose to provide **solely** to respond and maintain records of our communications.
+**Retention:** We generally retain support emails for up to **24 months** unless a longer period is required by law or to resolve an issue, after which we delete them.
+**Legal bases (GDPR/UK GDPR, where applicable):** performance of a contract (support), legitimate interests (responding to inquiries), or legal obligation.
+
+## 8  CHILDREN’S PRIVACY
+
+Binaural Cosmos is **not directed at children under 13** and intentionally collects no data from anyone. If you believe a child has provided us personal information via email, please contact us so we can delete it.
+
+## 9  YOUR RIGHTS
+
+Because the App itself does not collect personal data, there is typically nothing for us to access, rectify, or erase. If you contact us and provide personal data (e.g., by email), you may have rights under **POPIA**, **GDPR/UK GDPR**, or **CCPA/CPRA**, including the right to access or delete that information. To exercise these rights, email **[catmansoftwarestudio@gmail.com](mailto:catmansoftwarestudio@gmail.com)**.
+**Do Not Sell or Share (CCPA/CPRA):** We **do not sell** or **share** personal information as defined by California law, nor do we use cross-context behavioral advertising.
+
+## 10  SECURITY
+
+There is no server-side storage. On-device preferences remain within your device’s app sandbox. We rely on standard Android security protections and your device’s safeguards. If you email us, we use reasonable administrative measures to protect that correspondence.
+
+## 11  INTERNATIONAL TRANSFERS
+
+We do not transfer App data off your device. If you email us, your message may be processed by email service providers that route data internationally. Where relevant, we rely on appropriate safeguards provided by those providers.
+
+## 12  DATA RETENTION & DELETION
+
+* **On-device settings:** You control them. Uninstalling the App or using Android’s **"Clear Data"** permanently deletes them.
+* **Support emails:** Retained up to **24 months** (see Section 7) and then deleted, unless we must keep them longer for legal reasons.
+
+## 13  CHANGES TO THIS POLICY
+
+If we add cloud features, analytics, or otherwise change our practices, we will update this policy and notify users in-app or via the store listing. The “Effective date” above will be updated, and continued use after changes take effect means you accept the updated policy.
+
+## 14  CONTACT
+
+CatManSoftwareStudios
+**[catmansoftwarestudio@gmail.com]**

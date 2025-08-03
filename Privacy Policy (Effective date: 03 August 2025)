@@ -24,6 +24,8 @@ The App stores user preferences **locally** using Android’s SharedPreferences:
 
 This information remains on your device and is not transmitted to us.
 
+We use Android **SharedPreferences** and/or **Jetpack DataStore**, which store small key–value settings **inside the app sandbox** (internal storage). These mechanisms do **not** require external storage permissions.
+
 ## 4  PERMISSIONS WE REQUEST
 
 | Permission                                | Why we need it                                    | Notes                                          |
@@ -33,6 +35,8 @@ This information remains on your device and is not transmitted to us.
 | **VIBRATE**                               | Optional haptic feedback on button taps.          | Optional; you can disable haptics in settings. |
 
 No camera, microphone, location, contacts, or storage-write permissions are requested.
+
+When you pick a custom background image, the App uses the Android **Storage Access Framework**. You grant a **read-only, persistable URI** to that single image so it can be displayed later. The App does **not** request write access and does **not** upload the image anywhere.
 
 ## 5  THIRD-PARTY SERVICES
 

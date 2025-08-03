@@ -16,15 +16,20 @@ The App runs entirely on your device and works **without** the Android INTERNET 
 
 ## 3  WHAT THE APP STORES ON YOUR DEVICE
 
-The App stores user preferences **locally** using Android’s SharedPreferences:
+The App stores user preferences **locally** using Android’s SharedPreferences and/or Jetpack DataStore:
 
-* theme and background selection (including a local image URI if you choose one),
-* tone choices and preset selections,
-* simple UI state (e.g., last screen, toggles).
+* **Theme and background selection** (including a local image URI if you choose one),
+* **Tone choices and preset selections**,
+* **Simple UI state** (e.g., last screen, toggles),
+* **EULA acceptance details** including:
+    * **Acceptance timestamp** (local device time when you accepted),
+    * **EULA fingerprint** (partial SHA-256 hash of the accepted EULA text),
+    * **EULA effective date** (parsed directly from the local EULA document).
 
-This information remains on your device and is not transmitted to us.
+All of the above information remains on your device and is **never transmitted** to us.
 
-We use Android **SharedPreferences** and/or **Jetpack DataStore**, which store small key–value settings **inside the app sandbox** (internal storage). These mechanisms do **not** require external storage permissions.
+We use Android **SharedPreferences** and/or **Jetpack DataStore**, which store small key-value settings **inside the app sandbox** (internal storage). These mechanisms do **not** require external storage permissions.
+
 
 ## 4  PERMISSIONS WE REQUEST
 

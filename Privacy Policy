@@ -21,6 +21,8 @@ The App stores user preferences **locally** using Android’s SharedPreferences 
 * **Theme and background selection** (including a local image URI if you choose one),
 * **Tone choices and preset selections**,
 * **Simple UI state** (e.g., last screen, toggles),
+* **Trial status: a local timestamp when your free trial starts and a “last-seen” timestamp to prevent simple clock changes (TRIAL_START_UTC, TRIAL_LAST_SEEN_UTC).
+* **Purchase state: whether lifetime unlock is active (derived from Google Play purchase checks).
 * **EULA acceptance details** including:
     * **Acceptance timestamp** (local device time when you accepted),
     * **EULA fingerprint** (partial SHA-256 hash of the accepted EULA text),

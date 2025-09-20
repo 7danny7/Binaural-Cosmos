@@ -1,12 +1,16 @@
 # END-USER LICENSE AGREEMENT (EULA)
 
-Effective date: **03 August 2025**
+Effective date: **20 September 2025**
 
 PLEASE READ CAREFULLY. By installing or using **Binaural Cosmos** ("App") you agree to the terms below. If you do not agree, do not install or use the App.
 
 ## 1  LICENSE GRANT
 
 CatManSoftwareStudios ("Developer") grants you a revocable, non-exclusive, non-transferable license to download and use one copy of the App on devices you own or control for personal, non-commercial purposes. This license includes any updates or patches that the Developer may provide.
+
+## 1A  FREE TRIAL
+
+The App is free to download and includes a **30-day free trial** that begins on first launch on your device. During the trial you may use all features. **After the trial ends, starting new binaural playback is disabled** unless you complete the one-time unlock purchase; non-gated features may remain available. The Developer may run promotional trials of different length from time to time.
 
 ## 2  OWNERSHIP
 
@@ -21,11 +25,14 @@ You may **not**:
 * modify or create derivative works of the App;
 * use the App for any unlawful purpose or in violation of applicable laws, regulations, or third-party rights;
 * attempt to circumvent any technical protection measures or usage limitations.
+* attempt to bypass the trial or purchase checks (including by changing device time/region, clearing data solely to extend a trial, or using tooling to interfere with Google Play Billing or integrity checks).
 
 ## 4  IN-APP PURCHASES & PAYMENTS
 
-The App may offer one-time purchases processed by **Google Play**. Payment processing, refunds, and chargebacks are handled by Google under their policies. The Developer does not receive or store your payment card details.
-The App includes a free 30-day trial. After the trial, certain features may require a one-time purchase to continue use.
+The App is free to download and contains a **one-time, lifetime unlock** processed by **Google Play**. A **30-day free trial** starts on first launch. After the trial, starting new binaural playback requires the one-time unlock; there are **no subscriptions** and **no ads**.
+
+Payments, refunds, and chargebacks are handled by Google under their policies. The Developer does not receive or store your payment card details. Your unlock is tied to your Google account and can be restored on the same account via Google Play (“restore purchase”).
+
 
 ## 5  UPDATES; CHANGES TO THE APP OR TERMS
 
@@ -72,6 +79,7 @@ You represent that you are not located in, under the control of, or a resident o
 ## 13  TERMINATION
 
 This EULA is effective until terminated. It will terminate automatically if you breach any term. You may terminate at any time by uninstalling the App. Upon termination you must cease all use and destroy all copies of the App. Sections that by their nature should survive (e.g., Ownership, No Warranty, Limitation of Liability, Indemnification, Governing Law) shall survive termination.
+Upon trial expiry, your license to use **gated features** (starting new binaural playback) terminates unless you complete the one-time unlock; access to any non-gated features is unaffected.
 
 ## 14  GOVERNING LAW & VENUE
 

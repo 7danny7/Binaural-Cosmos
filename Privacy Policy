@@ -1,6 +1,6 @@
 # PRIVACY POLICY
 
-Effective date: **03 August 2025**
+Effective date: **20 September 2025**
 
 ## 1  WHO WE ARE
 
@@ -11,8 +11,10 @@ Country: **South Africa**
 
 ## 2  SUMMARY OF DATA PRACTICES
 
-We **do not collect, store, or transmit any personal data** from your use of the App.
-The App runs entirely on your device and works **without** the Android INTERNET permission.
+We **do not collect, store, or transmit personal data to our servers**. The App works **offline** and does not request the Android INTERNET permission.
+
+Trial enforcement and purchase validation happen **on-device**. The App queries **Google Play Billing** locally to determine whether your one-time unlock is active; we receive only entitlement status and product details needed to show purchase options. We do not receive your payment card details.
+
 
 ## 3  WHAT THE APP STORES ON YOUR DEVICE
 
@@ -22,7 +24,7 @@ The App stores user preferences **locally** using Android’s SharedPreferences 
 * **Tone choices and preset selections**,
 * **Simple UI state** (e.g., last screen, toggles),
 * **Trial status: a local timestamp when your free trial starts and a “last-seen” timestamp to prevent simple clock changes (TRIAL_START_UTC, TRIAL_LAST_SEEN_UTC).
-* **Purchase state: whether lifetime unlock is active (derived from Google Play purchase checks).
+* **Purchase state:** whether lifetime unlock is active (derived from Google Play purchase checks).
 * **EULA acceptance details** including:
     * **Acceptance timestamp** (local device time when you accepted),
     * **EULA fingerprint** (partial SHA-256 hash of the accepted EULA text),
@@ -31,6 +33,9 @@ The App stores user preferences **locally** using Android’s SharedPreferences 
 All of the above information remains on your device and is **never transmitted** to us.
 
 We use Android **SharedPreferences** and/or **Jetpack DataStore**, which store small key-value settings **inside the app sandbox** (internal storage). These mechanisms do **not** require external storage permissions.
+
+These values are used solely on your device to enforce the trial, remember preferences, and reflect your purchase status; they are not uploaded.
+
 
 
 ## 4  PERMISSIONS WE REQUEST
@@ -47,12 +52,12 @@ When you pick a custom background image, the App uses the Android **Storage Acce
 
 ## 5  THIRD-PARTY SERVICES
 
-The App uses only core Android / Google Play libraries (including **Play Billing**). Google processes your purchase; we do not receive your payment details. The App does **not** include Firebase Analytics, Crashlytics, Ad SDKs, or other tracking technologies.
-System services (e.g., Google Play, device OS) may process limited technical data under their own privacy policies.
+The App uses core Android / Google Play libraries, including **Play Billing** to process the one-time unlock and to restore purchases. Google may process limited technical and account data under its own privacy policy when you interact with Play Billing. We do not use Firebase Analytics, Crashlytics, ad SDKs, or other trackers.
+
 
 ## 6  PURCHASES, BILLING & REFUNDS
 
-Payments are handled by **Google Play** under Google’s terms and policies. For refund eligibility, please refer to Google Play’s refund policy. We do not store or control payment card information.
+Payments are handled by **Google Play** under Google’s terms. For refunds, please refer to Google Play’s refund policy. The App queries Google Play Billing **on-device** to verify entitlement and to restore your one-time unlock on the same Google account. We may cache a local “entitled/unlocked” flag so the App can reflect your status offline. We do not receive your payment card information.
 
 ## 7  WHEN YOU CONTACT US
 
@@ -81,6 +86,7 @@ We do not transfer App data off your device. If you email us, your message may b
 
 * **On-device settings:** You control them. Uninstalling the App or using Android’s **"Clear Data"** permanently deletes them.
 * **Support emails:** Retained up to **24 months** (see Section 7) and then deleted, unless we must keep them longer for legal reasons.
+* **Purchase status:** If you clear data or reinstall, you may need to use “Restore Purchase” so Google Play can re-confirm your one-time unlock on that account.
 
 ## 13  CHANGES TO THIS POLICY
 
